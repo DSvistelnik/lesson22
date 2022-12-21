@@ -22,4 +22,4 @@ class Unit:
         elif self.state == 'crawl':
             return self.speed * 0.5
         else:
-            raise ValueError('Эк тебя раскорячило')
+            raise ValueError("Эк тебя раскорячило")
